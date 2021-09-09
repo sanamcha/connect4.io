@@ -1,0 +1,39 @@
+/* game board table */
+body{
+  text-align:center;
+}
+#board td {
+  width: 80px;
+  height: 80px;
+  border: solid 2px rgb(7, 9, 34);
+  
+}
+
+h1{
+  color:purple;
+  font-size:3.5rem;
+}
+h2{
+  color:Red;
+  font-size: 4rem;
+  /* text-align: center; */
+}
+p{
+  color:rgb(240, 20, 240);
+  font-size:2rem;
+  /* text-align: center; */
+}
+.piece {
+  margin: 5px;
+  width: 90%;
+  height: 90%;
+  border-radius: 10%;
+}
+
+#col-top td {
+  border: dashed 2px rgb(243, 77, 221);
+}
+
+#col-top td:hover {
+  background-color: rgb(201, 243, 217);
+}
